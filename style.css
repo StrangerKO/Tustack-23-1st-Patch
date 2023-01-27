@@ -1,0 +1,92 @@
+body
+{
+  text-align: center;
+  background-color: #222;
+}
+ .hello
+{
+  border-color: #47d7ac;
+  border-style: double;
+  border-width: 10px;
+  color: #47d7ac;
+  font-family: monospace;
+}
+.container
+{
+  width: 80%;
+  margin: 0 auto;
+}
+header
+{
+  background: #47d7ac;
+}
+header::after
+{
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo
+{
+  float: left;
+}
+nav
+{
+  float: right;
+}
+nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li
+{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+}
+nav a
+{
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+ nav a:hover
+ {
+   text-decoration: overline;
+   text-decoration-style: dotted;
+   text-decoration-thickness: 3px;
+   text-decoration-color: white;
+   font-size: 20px;
+ }
+
+.alih
+{
+  border-color: #47d7ac;
+  border-style: double;
+  border-width: 10px;
+  color: #47d7ac;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bold;
+}
+.gbatextsize
+{
+  font-size: 11px;
+}
+.instruction
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #47d7ac;
+}
+.instruction:hover
+{
+  text-decoration: overline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 3px;
+  text-decoration-color: white;
+  font-size: 20px;
+}
